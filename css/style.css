@@ -1,0 +1,13 @@
+:root { --app-blue: #315cdb; --app-ink: #17213b; }
+body { background: #f5f7fb; color: var(--app-ink); }
+.app-navbar { background: linear-gradient(110deg, #172b6b, #315cdb); }
+.eyebrow { color: var(--app-blue); font-size: .75rem; font-weight: 700; letter-spacing: .12em; }
+.btn-primary { background: var(--app-blue); border-color: var(--app-blue); }
+.btn-primary:hover { background: #2449b8; border-color: #2449b8; }
+.table thead th { background: #f8f9fc; color: #65708a; font-size: .75rem; text-transform: uppercase; letter-spacing: .04em; white-space: nowrap; }
+.table td, .table th { padding: 1rem; }
+.badge-category { background: #e8edff; color: #3151b3; font-weight: 600; }
+.action-btn { border: 0; background: transparent; color: #64708a; padding: .25rem .4rem; }
+.action-btn:hover { color: var(--app-blue); background: #eef2ff; }
+.card { border-radius: .85rem; overflow: hidden; }
+@media (max-width: 768px) { .table td, .table th { padding: .75rem; } }
