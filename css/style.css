@@ -7,7 +7,22 @@ body { background: #f5f7fb; color: var(--app-ink); }
 .table thead th { background: #f8f9fc; color: #65708a; font-size: .75rem; text-transform: uppercase; letter-spacing: .04em; white-space: nowrap; }
 .table td, .table th { padding: 1rem; }
 .badge-category { background: #e8edff; color: #3151b3; font-weight: 600; }
+.badge-status-ativo { background: #d1fae5; color: #065f46; font-weight: 600; }
+.badge-status-inativo { background: #f3f4f6; color: #4b5563; font-weight: 600; }
+.badge-status-suspenso { background: #fee2e2; color: #991b1b; font-weight: 600; }
+.badge-sem-livro { background: #e0f2fe; color: #0369a1; font-weight: 600; }
+.badge-com-livro { background: #fef3c7; color: #92400e; font-weight: 600; }
 .action-btn { border: 0; background: transparent; color: #64708a; padding: .25rem .4rem; }
 .action-btn:hover { color: var(--app-blue); background: #eef2ff; }
 .card { border-radius: .85rem; overflow: hidden; }
+.nav-pills .nav-link { color: rgba(255, 255, 255, 0.85); font-weight: 500; border-radius: .5rem; padding: .35rem .85rem; }
+.nav-pills .nav-link.active { background-color: rgba(255, 255, 255, 0.25); color: #fff; box-shadow: 0 2px 4px rgba(0,0,0,0.12); }
+.nav-pills .nav-link:hover:not(.active) { color: #fff; background-color: rgba(255, 255, 255, 0.12); }
+.badge-status-emprestimo-ativo { background: #dbeafe; color: #1e40af; font-weight: 600; }
+.badge-status-emprestimo-devolvido { background: #d1fae5; color: #065f46; font-weight: 600; }
+.badge-status-emprestimo-atrasado { background: #fee2e2; color: #991b1b; font-weight: 600; }
+.badge-status-emprestimo-parcial { background: #fef3c7; color: #92400e; font-weight: 600; }
+.books-selection-box { max-height: 220px; overflow-y: auto; border: 1px solid #dee2e6; border-radius: .375rem; padding: .5rem; background: #fff; }
+.books-selection-item { display: flex; align-items: center; justify-content: space-between; padding: .4rem .6rem; border-radius: .25rem; }
+.books-selection-item:hover { background: #f8f9fa; }
 @media (max-width: 768px) { .table td, .table th { padding: .75rem; } }
